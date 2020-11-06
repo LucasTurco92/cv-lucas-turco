@@ -1,0 +1,26 @@
+.container {
+    background: rgb(0, 140, 69);
+    background: linear-gradient(90deg, rgba(0, 140, 69, 1) 33%, rgba(246, 246, 246, 1) 33%, rgba(246, 246, 246, 1) 66%, rgba(205, 33, 42, 1) 66%);
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.container:hover .name {
+    visibility: visible;
+}

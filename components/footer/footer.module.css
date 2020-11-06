@@ -1,0 +1,26 @@
+.container {
+    color: #272833;
+    background: #eaeaea3b;
+    padding: 20px;
+    flex: 2 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.statement {
+    font-size: small;
+}
+
+.barr {
+    border: 1px solid rgb(0, 175, 239);
+}
+
+@media (min-width: 720px) {
+    .container {
+        padding: 20px 100px 0 20px;
+        min-width: calc(100% - 250px);
+        width: calc(100% - 250px);
+    }
+    .statement {
+        font-size: smaller;
+    }
+}

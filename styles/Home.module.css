@@ -1,0 +1,31 @@
+.containerCut {
+    width: 100%;
+    background: rgb(0, 57, 166);
+    background: linear-gradient(135deg, rgba(0, 57, 166, .9) 0%, rgba(0, 175, 239, .9) 30%);
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 0 50%);
+    position: absolute;
+    top: 0vh;
+    height: 100%;
+}
+
+.container {
+    background-image: url(./../public/background.jpg);
+    background-size: cover;
+    background-attachment: fixed, fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+@media (min-width: 600px) {
+    .container {
+        padding-bottom: 10vh;
+        padding-top: 17vh;
+        background-position: right;
+    }
+    .containerCut {
+        height: 50vw;
+    }
+}

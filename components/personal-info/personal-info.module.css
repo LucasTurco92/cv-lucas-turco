@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    background: #272833;
+    min-height: 250px;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.personalContainer {
+    font-size: small;
+    display: block;
+}
+
+.personal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+@media (min-width: 720px) {
+    .container {
+        width: 250px;
+    }
+    .personal {
+        display: flex;
+        justify-content: space-between;
+    }
+}

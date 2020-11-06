@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    background: #272833;
+    min-height: 250px;
+    height: 100%;
+    padding: 20px;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+@media (min-width: 720px) {
+    .container {
+        width: 250px;
+    }
+}
