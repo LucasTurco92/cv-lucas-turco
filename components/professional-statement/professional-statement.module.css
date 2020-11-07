@@ -19,8 +19,8 @@
         min-height: 300px;
         height: 100%;
         padding: 20px 100px 0 20px;
-        min-width: calc(100% - 250px);
-        width: calc(100% - 250px);
+        min-width: calc(100% - 300px);
+        width: calc(100% - 300px);
     }
     .statement {
         font-size: smaller;

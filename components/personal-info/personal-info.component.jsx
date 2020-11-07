@@ -16,7 +16,7 @@ const PersonalInfo = () => {
   return (
     <div className={styles.container}>
       <hr className={styles.barr} />
-      <h4>Personal Information</h4>
+      <h3>Personal Information</h3>
       <div className={styles.personalContainer}>
         {contentList.map((info) => (
           <div key={info.title} className={styles.personal}>

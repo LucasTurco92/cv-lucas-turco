@@ -1,5 +1,5 @@
 .cv {
-    max-width: 70vw;
+    max-width: 80vw;
     background-color: white;
     margin: auto;
     position: relative;
@@ -13,7 +13,6 @@
 
 @media (min-width: 720px) {
     .cv {
-        max-width: 80vw;
         -webkit-box-shadow: -30px 30px 50px 15px rgba(0, 0, 0, 0.83);
         box-shadow: -30px 30px 50px 15px rgba(0, 0, 0, 0.83);
     }

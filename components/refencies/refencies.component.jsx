@@ -5,7 +5,7 @@ const Refencies = () =>{
     return (
         <div className={styles.container}>
              <hr className={styles.barr}/>
-            <h4>Referencies</h4>
+            <h3>Referencies</h3>
         </div>);
 
 };

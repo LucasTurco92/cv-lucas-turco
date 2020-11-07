@@ -7,8 +7,13 @@
     color: white;
 }
 
+.skillsContainer {
+    font-size: 1.4m;
+    display: block;
+}
+
 @media (min-width: 720px) {
     .container {
-        width: 250px;
+        width: 300px;
     }
 }

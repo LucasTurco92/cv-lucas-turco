@@ -7,24 +7,36 @@
     color: white;
 }
 
-.personalContainer {
-    font-size: 1.4m;
-    display: block;
-}
-
-.personal {
+.skill {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     justify-content: space-between;
 }
 
+.blue {
+    height: 5px;
+    width: 25px;
+    background: rgb(0, 175, 239);
+    display: inline-block;
+}
+
+.white {
+    height: 5px;
+    width: 25px;
+    background: white;
+    display: inline-block;
+}
+
+.barrs {
+    display: block;
+}
+
 @media (min-width: 720px) {
     .container {
         width: 300px;
     }
-    .personal {
-        display: flex;
+    .skill {
         justify-content: space-between;
     }
 }
