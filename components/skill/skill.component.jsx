@@ -10,9 +10,9 @@ const Skill = ({ title, count }) => {
     for (var i = 0; i < countLimit; i++) {
       barrs.push(
         count > 0 ? (
-          <span className={styles.blue} />
+          <span key={`${title}${i}`} className={styles.blue} />
         ) : (
-          <span className={styles.white} />
+          <span key={`${title}${i}`} className={styles.white} />
         )
       );
 
@@ -21,6 +21,7 @@ const Skill = ({ title, count }) => {
 
     return barrs;
   };
+
 
   return (
     <div key={title} className={styles.skill}>

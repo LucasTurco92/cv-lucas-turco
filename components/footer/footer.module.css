@@ -1,9 +1,9 @@
 .container {
     color: #272833;
-    background: #eaeaea3b;
+    background: #fafafa;
+    ;
     padding: 20px;
     flex: 2 0px;
-    font-family: 'Roboto Mono', monospace;
 }
 
 .statement {

@@ -1,28 +1,33 @@
-.container {
-    color: #272833;
-    background: #eaeaea3b;
-    padding: 20px;
-    flex: 2 0px;
-    font-family: 'Roboto Mono', monospace;
-}
-
-.statement {
-    font-size: small;
-}
-
-.barr {
-    border: 1px solid #272833;
-}
-
-@media (min-width: 720px) {
     .container {
-        min-height: 300px;
-        height: 100%;
-        padding: 20px 100px 0 20px;
-        min-width: calc(100% - 300px);
-        width: calc(100% - 300px);
+        color: #272833;
+        background: #fafafa;
+        padding: 20px;
+        flex: 2 0px;
     }
+    
     .statement {
-        font-size: smaller;
+        font-size: small;
     }
-}
+    
+    .barr {
+        border: 1px solid #272833;
+    }
+    
+    @media (min-width: 720px) {
+        .container {
+            min-height: 300px;
+            height: 100%;
+            padding: 20px 50px 0 20px;
+            min-width: calc(100% - 300px);
+            width: calc(100% - 300px);
+        }
+        .statement {
+            font-size: smaller;
+        }
+    }
+    
+    @media (min-width: 1600px) {
+        .container {
+            padding-right: 100px;
+        }
+    }

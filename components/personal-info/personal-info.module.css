@@ -3,12 +3,15 @@
     background: #272833;
     min-height: 250px;
     padding: 20px;
-    font-family: 'Roboto Mono', monospace;
     color: white;
 }
 
 .personalContainer {
     font-size: 1.4m;
+    display: block;
+}
+
+.barr {
     display: block;
 }
 
@@ -19,6 +22,14 @@
     justify-content: space-between;
 }
 
+.linkedinLogo {
+    height: 45px;
+}
+
+.linkedinQr {
+    height: 65px;
+}
+
 @media (min-width: 720px) {
     .container {
         width: 300px;
@@ -26,5 +37,8 @@
     .personal {
         display: flex;
         justify-content: space-between;
+    }
+    .barr {
+        display: none;
     }
 }
