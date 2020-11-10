@@ -1,4 +1,5 @@
 import React from "react";
+import Id from "../helpers/id";
 import styles from "./skill.module.css";
 
 const Skill = ({ title, count }) => {
@@ -24,8 +25,8 @@ const Skill = ({ title, count }) => {
 
 
   return (
-    <div key={title} className={styles.skill}>
-      {`${title}: `}
+    <div key={Id()} className={styles.skill}>
+      {typeof title === 'object' ? title : `${title}: `}
       <div className={styles.barrs}>{level().map((barrs) => barrs)}</div>
     </div>
   );

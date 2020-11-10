@@ -1,7 +1,12 @@
 import React from "react";
 import Skill from "../skill/skill.component";
 import Skills from "../skills/skills.component";
+import ItalyFlag from "../italy-flag/italy-flag.component";
+
 import styles from "./skills-info.module.css";
+import JapanFlag from "../japan-flag/japan-flag.component";
+import SpainFlag from "../spain-flag/spain-flag.component";
+import UkFlag from "../uk-flag/uk-flag.component";
 
 const SkillsInfo = () => {
   const skillsList = [
@@ -21,10 +26,10 @@ const SkillsInfo = () => {
   ];
 
   const languagesList = [
-    { item: <Skill title="spanish" count={5} /> },
-    { item: <Skill title="english" count={3} /> },
-    { item: <Skill title="italian" count={2} /> },
-    { item: <Skill title="japanese" count={1} /> },
+    { item: <Skill title={<SpainFlag/>}  count={5} /> },
+    { item: <Skill title= {<UkFlag/>} count={4} /> },
+    { item: <Skill title={<ItalyFlag/>} count={2} /> },
+    { item: <Skill title={<JapanFlag/>} count={1} /> },
   ];
 
   return (

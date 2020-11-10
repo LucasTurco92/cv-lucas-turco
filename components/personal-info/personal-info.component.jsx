@@ -8,7 +8,7 @@ const PersonalInfo = () => {
   const contentList = [
     {
       title: "Nationalities",
-      content: [<ArgentinaFlag key="1" />, <ItalyFlag key="2" />],
+      content: [<ArgentinaFlag key="1"  isDemonym = {true}/>, <ItalyFlag key="2" />],
     },
     { title: "Birth", content: "19/11/1992" },
     { title: "Status", content: "Single" },

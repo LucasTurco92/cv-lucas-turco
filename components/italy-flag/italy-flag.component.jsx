@@ -3,7 +3,7 @@ import styles from './italy-flag.module.css';
 
 const ItalyFlag = () =>{
     return(<div className={styles.container}>
-            <span className={styles.name}>Italy</span>
+            <span className={styles.name}>italian</span>
         </div>)
 
 }

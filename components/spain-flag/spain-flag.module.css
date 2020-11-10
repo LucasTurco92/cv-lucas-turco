@@ -1,0 +1,24 @@
+.container {
+    background: rgb(170, 21, 27);
+    background: linear-gradient(0deg, rgba(170, 21, 27, 1) 25%, rgba(241, 191, 0, 1) 25%, rgba(241, 191, 0, 1) 75%, rgba(170, 21, 27, 1) 75%);
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.name {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.container:hover .name {
+    visibility: visible;
+}

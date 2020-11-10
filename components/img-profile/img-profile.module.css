@@ -9,7 +9,6 @@
     display: flex;
     background: rgba(0, 175, 239, 1);
     min-height: 250px;
-    order: -1;
     width: 50%;
 }
 

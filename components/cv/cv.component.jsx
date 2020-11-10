@@ -10,8 +10,15 @@ import SkillsInfo from "../skills-info/skills-info.component";
 import Styles from "./cv.module.css";
 
 const itemsList=[
-  {institution:'ORT Argentina',title:'Technical degree',date:'2016'},
-  {institution:'ORT Argentina',title:'Secondary school',date:'2011'}
+  {institution:'Udemy.com',title:"Node.js's course",date:'2020', description:'Zero to Expert - 20 hours.'},
+  {institution:'ORT Argentina',title:'Technical degree, System Analyst',date:'2016', description:'Developer at the 2nd stage of the proyect "Academy polls" in ASP.NET MVC 5. September 2016 - December 2016.'},
+  {institution:'ORT Argentina',title:'Secondary school, IT Oriented',date:'2011'}
+];
+
+const jobList=[
+  {institution:'Plataforma10',title:"Node.js's course",date:'14/07/2020 - present', description:'Zero to Expert - 20 hours.'},
+  {institution:'ORT Argentina',title:'Technical degree, System Analyst',date:'2016', description:'Developer at the 2nd stage of the proyect "Academy polls" in ASP.NET MVC 5. September 2016 - December 2016.'},
+  {institution:'ORT Argentina',title:'Secondary school, IT Oriented',date:'2011'}
 ];
 
 
@@ -31,7 +38,7 @@ const Cv = () => {
       <PersonalInfo />
       <Section title='Education' itemsList={itemsList}/>
       <SkillsInfo />
-      <Section title='Work Experience' barr={true} itemsList={itemsList}/>
+      <Section title='Work Experience' barr={true} itemsList={jobList}/>
       <Refencies />
       <Footer />
     </div>
