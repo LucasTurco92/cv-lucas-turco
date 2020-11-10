@@ -18,31 +18,8 @@
     border: 1px solid #272833;
 }
 
-.itemHeader {
-    display: block;
-}
-
 .description {
     padding-left: 40px;
-}
-
-.dot {
-    background: rgb(0, 175, 239);
-    background: radial-gradient(circle, rgba(0, 175, 239, 1) 10%, rgba(250, 250, 250, 1) 30%);
-    height: 10px;
-    width: 30px;
-    margin-right: 10px;
-    display: inline-block;
-}
-
-.itemsSection {
-    display: block;
-    margin-top: 15px;
-}
-
-.itemSection {
-    display: block;
-    margin-bottom: 25px;
 }
 
 .baseLine {
