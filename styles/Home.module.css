@@ -24,6 +24,7 @@
         padding-bottom: 10vh;
         padding-top: 17vh;
         background-position: right;
+        background-size: auto;
         background-image: url(./../public/background.jpg);
     }
     .containerCut {

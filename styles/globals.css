@@ -14,3 +14,12 @@ a {
     box-sizing: border-box;
     font-family: 'Roboto Mono', monospace;
 }
+
+:root {
+    --blue: #00afef;
+    --white: #ffffff;
+    --lightGrey: #fafafa;
+    --dark: #272833;
+    --lightBlue: rgba(0, 175, 239, .5);
+    --solidBlack: #000;
+}

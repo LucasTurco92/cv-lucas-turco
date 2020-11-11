@@ -10,6 +10,7 @@
 
 .itemHeader {
     display: block;
+    margin-bottom: 3px;
 }
 
 .dot {
@@ -22,5 +23,20 @@
 }
 
 .description {
-    padding-left: 40px;
+    padding-left: 10px;
+    font-size: .9em;
+}
+
+.date {
+    font-size: .9em;
+}
+
+@media (min-width: 720px) {
+    .description {
+        padding-left: 40px;
+        font-size: 1em;
+    }
+    .date {
+        font-size: 1em;
+    }
 }

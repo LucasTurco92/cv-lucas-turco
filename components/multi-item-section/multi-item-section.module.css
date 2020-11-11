@@ -1,8 +1,19 @@
-.container {
-    height: 10px;
+.headerPlace {
+    border-bottom: 3px solid rgba(0, 175, 239, .5);
+    display: block;
 }
 
-.itemsSection {
-    display: block;
-    margin-top: 15px;
+.date {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(0, 175, 239, .5);
+}
+
+@media (min-width: 720px) {
+    .headerPlace {
+        display: inline;
+    }
+    .container {
+        margin: 10px;
+    }
 }

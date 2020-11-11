@@ -22,12 +22,6 @@
     padding-left: 40px;
 }
 
-.baseLine {
-    border-top: 3px solid rgba(0, 175, 239, .5);
-    width: 65px;
-    border-right: 3px solid rgba(0, 175, 239, .5);
-}
-
 @media (min-width: 720px) {
     .container {
         padding: 20px 50px 0 20px;
@@ -45,6 +39,11 @@
     }
     .itemSection {
         padding-left: 15px;
+    }
+    .baseLine {
+        border-top: 3px solid rgba(0, 175, 239, .5);
+        width: 130px;
+        border-right: 3px solid rgba(0, 175, 239, .5);
     }
 }
 

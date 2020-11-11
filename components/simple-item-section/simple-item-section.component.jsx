@@ -9,11 +9,11 @@ const SimpleItemSection = ({ itemsList }) => {
         <div key={Id()} className={Styles.itemSection}>
           <div className={Styles.itemHeader}>
             <div className={Styles.dot} />
-            <b>{item.institution}</b> - {item.date ? item.date : item.dates}
+            <b>{item.institution}</b> 
           </div>
           <div className={Styles.description}>
             <span>
-              <i>{item.title}</i>
+              <i>{item.title}</i> <span className={Styles.date}>{item.date ? item.date : item.dates}</span>
             </span>
             <p>{item.description ? item.description : ""}</p>
           </div>
