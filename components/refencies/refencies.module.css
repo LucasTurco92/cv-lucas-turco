@@ -6,9 +6,3 @@
     padding: 20px;
     color: white;
 }
-
-@media (min-width: 720px) {
-    .container {
-        width: 300px;
-    }
-}

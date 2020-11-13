@@ -1,0 +1,23 @@
+.argentina {
+    background: rgb(117, 170, 219);
+    background: linear-gradient(0deg, rgba(117, 170, 219, 1) 33%, rgba(255, 255, 255, 1) 33%, rgba(255, 255, 255, 1) 66%, rgba(117, 170, 219, 1) 66%);
+    display: flex;
+    align-items: center;
+}
+
+.sun {
+    height: 10px;
+    width: 100%;
+    background: rgb(246, 180, 14);
+    background: radial-gradient(circle, rgba(246, 180, 14, 1) 10%, rgba(255, 255, 255, 1) 20%);
+}
+
+.argentinaLeft {
+    @extend .argentina;
+    justify-content: flex-start;
+}
+
+.argentinaRight {
+    @extend .argentina;
+    justify-content: flex-end;
+}

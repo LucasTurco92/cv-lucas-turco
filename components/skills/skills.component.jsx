@@ -2,12 +2,12 @@ import React from "react";
 import Id from "../helpers/id";
 import styles from "./skills.module.css";
 
-const SkillsInfo = ({title,itemsList}) => {
+const SkillsInfo = ({title,itemsList,barr}) => {
  
 
   return (
     <div>
-      <hr/>
+      {barr ?<hr/> : '' }
       <h3>{title}</h3>
       <div className={styles.skillsContainer}>
         {itemsList.map((skill) =>(

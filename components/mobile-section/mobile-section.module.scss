@@ -1,72 +1,18 @@
     .container {
         color: var(--dark);
         background: var(--lightGrey);
-        padding: 20px;
         flex: 2 0px;
         animation: Open reverse 1s;
+        padding: 0 20px 0 20px;
     }
     
     .text {
         font-size: smaller;
     }
     
-    .buttonTitle {
-        border: 3px solid var(--blue);
-        padding: 10px;
-        background: var(--lightBlue);
-    }
-    
-    .buttonTitleSelected {
-        @extend .buttonTitle;
-        border: 3px solid var(--lightGrey);
-    }
-    
-    .icon {
-        transition: transform 0.3s ease-in-out;
-        background-size: contain;
-        background-repeat: no-repeat;
-        border: 1px solid var(--solidBlack);
-        border-width: 0 3px 3px 0;
-        display: inline-block;
-        padding: 3px;
-        opacity: 0.6;
-        margin: 5px;
-    }
-    
-    .iconDown {
-        @extend .icon;
-        transform: rotate(45deg);
-    }
-    
-    .iconUp {
-        @extend .icon;
-        transform: rotate(-135deg);
-    }
-    
-    .acordeon {
-        transition-property: opacity, transform, height;
-    }
-    
-    .acordeonOpen {
-        @extend .acordeon;
-        opacity: 1;
-        transform: translateY(0);
-        transition-delay: 0.2s;
-        transition-timing-function: ease-in-out;
-        transition-duration: 0.2s;
-    }
-    
-    .acordeonClose {
-        @extend .acordeon;
-        height: 0;
-        opacity: 0;
-        transform: translateY(-1rem);
-        transition-timing-function: linear, ease;
-        transition-duration: 0.1s;
-    }
-    
     .barr {
         border: 1px solid var(--dark);
+        display: none;
     }
     
     @media (min-width: 720px) {
@@ -79,6 +25,9 @@
         }
         .statement {
             font-size: smaller;
+        }
+        .barr {
+            display: block;
         }
     }
     

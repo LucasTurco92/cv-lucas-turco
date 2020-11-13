@@ -28,14 +28,14 @@ const SkillsInfo = () => {
   const languagesList = [
     { item: <Skill title={<SpainFlag/>}  count={5} /> },
     { item: <Skill title= {<UkFlag/>} count={4} /> },
-    { item: <Skill title={<ItalyFlag/>} count={2} /> },
+    { item: <Skill title={<ItalyFlag  position='Left' key='3'/>} count={2} /> },
     { item: <Skill title={<JapanFlag/>} count={1} /> },
   ];
 
   return (
     <div className={styles.container}>
-      <Skills title='Skills' itemsList={skillsList}/>
-      <Skills title='Languages' itemsList={languagesList}/>
+      <Skills itemsList={skillsList}/>
+      <Skills title='Languages' barr={true} itemsList={languagesList}/>
     </div>
   );
 };

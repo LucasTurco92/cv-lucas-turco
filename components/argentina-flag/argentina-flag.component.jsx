@@ -1,12 +1,13 @@
 import React from 'react';
-import styles from './argentina-flag.module.css';
+import Styles from './argentina-flag.module.scss';
+import Flag from "../flag/flag.component.jsx";
 
-const ArgentinaFlag = ({isDemonym}) =>{
-    return(<div className={styles.container}>
-            <div className={styles.sun}/>
-            <span className={styles.name}>{isDemonym? 'argentinian' : 'argentina'}</span>
-        </div>)
-
+const ArgentinaFlag = ({isDemonym,position}) =>{
+    return(
+        <Flag name={isDemonym? 'argentinian' : 'argentina'} style={Styles[`argentina${position}`]}>
+            <div className={Styles.sun}/>
+        </Flag>
+      )
 }
 
 export default ArgentinaFlag;

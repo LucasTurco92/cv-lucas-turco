@@ -11,6 +11,10 @@
     box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.44);
 }
 
+.smallText {
+    font-size: small;
+}
+
 .blueBarr {
     display: none;
 }
@@ -36,7 +40,7 @@
 }
 
 .profession {
-    color: #ffcc85;
+    color: var(--gold);
     font-size: 1rem;
 }
 

@@ -1,12 +1,12 @@
 .headerPlace {
-    border-bottom: 3px solid rgba(0, 175, 239, .5);
+    border-bottom: 3px solid var(--lightBlue);
     display: block;
 }
 
 .date {
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color: rgba(0, 175, 239, .5);
+    text-decoration-color: var(--lightBlue);
 }
 
 @media (min-width: 720px) {

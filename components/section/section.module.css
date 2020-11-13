@@ -1,21 +1,12 @@
 .container {
     color: #272833;
     background: #fafafa;
-    padding: 20px;
     flex: 2 0px;
 }
 
 .section {
     font-size: small;
     display: flex;
-}
-
-.NoneBarr {
-    display: block;
-}
-
-.barr {
-    border: 1px solid #272833;
 }
 
 .description {
@@ -26,16 +17,9 @@
     .container {
         padding: 20px 50px 0 20px;
         min-width: calc(100% - 300px);
-        width: calc(100% - 300px);
     }
     .statement {
         font-size: smaller;
-    }
-    .barr {
-        display: block;
-    }
-    .NoneBarr {
-        display: none;
     }
     .itemSection {
         padding-left: 15px;

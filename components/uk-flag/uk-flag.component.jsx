@@ -1,11 +1,11 @@
 import React from "react";
 import Styles from "./uk-flag.module.css";
+import Flag from "../flag/flag.component.jsx";
+
 
 const UkFlag = () => {
   return (
-    <div className={Styles.container}>
-      <span className={Styles.name}>english</span>
-    </div>
+   <Flag name='english' style={Styles.uk}/>
   );
 };
 

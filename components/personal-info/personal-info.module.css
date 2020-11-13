@@ -1,9 +1,8 @@
 .container {
     width: 100%;
-    background: #272833;
+    background: var(--dark);
     min-height: 250px;
-    padding: 20px;
-    color: white;
+    color: var(--white);
 }
 
 .personalContainer {
@@ -31,9 +30,6 @@
 }
 
 @media (min-width: 720px) {
-    .container {
-        width: 300px;
-    }
     .personal {
         display: flex;
         justify-content: space-between;

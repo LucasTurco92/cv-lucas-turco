@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './refencies.module.css'
 
-const Refencies = () =>{
+const Refencies = (props) =>{
     return (
         <div className={styles.container}>
              <hr className={styles.barr}/>
-            <h3>Referencies</h3>
+            <h3>{props.title}</h3>
         </div>);
 
 };
