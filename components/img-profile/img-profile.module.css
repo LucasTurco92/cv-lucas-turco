@@ -3,7 +3,6 @@
     width: 90%;
     object-position: top;
     border-right: 1px solid white;
-    filter: grayscale(100%);
 }
 
 .container {

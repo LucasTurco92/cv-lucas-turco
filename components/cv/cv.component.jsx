@@ -9,13 +9,14 @@ import SkillsInfo from "../skills-info/skills-info.component";
 import Styles from "./cv.module.css";
 import MobileSection from "../mobile-section/mobile-section.component";
 import MobileDarkSection from "../mobile-dark-section/mobile-dark-section.component";
+import AnimatedBackground from "../animated-background/animated-background.component";
 
 const itemsList = [
   {
     institution: "Udemy.com",
-    title: "Node.js's course",
+    title: "Node.js's & Express course",
     date: "2020",
-    description: "Zero to expert - duration: 20 hours.",
+    description: "Duration: 20 hours.",
   },
   {
     institution: "ORT Argentina",
@@ -23,12 +24,7 @@ const itemsList = [
     date: "2016",
     description:
       'Developer at the 2nd stage of the proyect "Academy polls" in ASP.NET MVC 5. September 2016 - December 2016.',
-  },
-  {
-    institution: "ORT Argentina",
-    title: "Secondary school, IT Oriented",
-    date: "2011",
-  },
+  }
 ];
 const education = [{ itemslist: itemsList }];
 
@@ -36,7 +32,7 @@ const jobList = [
   {
     institution: "Fullstack Ssr.",
     title: "Principal e-commerce",
-    date: "14/07/2020 - Present",
+    date: "14/07/2020 - PRESENT",
     description: "Zero to Expert - 20 hours.",
   },
   {
@@ -78,15 +74,7 @@ const Cv = () => {
       <ImgProfile />
       <MobileSection title="profesional statement">
         <p className={Styles.smallText}>
-          {" "}
-          Perseverant and passional developer. Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Debitis dignissimos quaerat, quos esse
-          dolores fuga error saepe modi eius aspernatur unde quas sequi
-          similique perspiciatis, exercitationem commodi excepturi nam
-          consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Quod, porro? Id, nulla nihil? Cumque minus ipsa nisi architecto sequi
-          harum id, dignissimos possimus. Tempore, et? Officiis, possimus!
-          Impedit, provident distinctio.
+        My name is Lucas and I develop to create solutions, focus on quality and added value, implementing good practices and working in team
         </p>
       </MobileSection>
       <div className={Styles.band}>

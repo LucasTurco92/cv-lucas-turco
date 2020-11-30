@@ -9,6 +9,7 @@
     align-content: flex-start;
     -webkit-box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.44);
     box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.44);
+    z-index: 100;
 }
 
 .smallText {
@@ -50,8 +51,8 @@
 
 @media (min-width: 720px) {
     .cv {
-        -webkit-box-shadow: -30px 30px 50px 15px rgba(0, 0, 0, 0.83);
-        box-shadow: -30px 30px 50px 15px rgba(0, 0, 0, 0.83);
+        -webkit-box-shadow: 0 30px 50px 15px rgba(0, 0, 0, 0.83);
+        box-shadow: 0 30px 50px 15px rgba(0, 0, 0, 0.83);
     }
     .separator {
         background: #fafafa;

@@ -12,9 +12,10 @@ const SimpleItemSection = ({ itemsList }) => {
             <b>{item.institution}</b> 
           </div>
           <div className={Styles.description}>
-            <span>
-              <i>{item.title}</i> <span className={Styles.date}>{item.date ? item.date : item.dates}</span>
-            </span>
+            <div className={Styles.headerDescription}>
+              <i>{item.title}</i> 
+              <span className={Styles.date}>{item.date ? item.date : item.dates}</span>
+            </div>
             <p>{item.description ? item.description : ""}</p>
           </div>
         </div>

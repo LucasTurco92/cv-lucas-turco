@@ -9,7 +9,6 @@
 }
 
 .container {
-    background-image: url(./../public/backgroundjs.jpg);
     background-size: cover;
     background-attachment: fixed, fixed;
     background-position: center;
@@ -25,7 +24,6 @@
         padding-top: 17vh;
         background-position: right;
         background-size: auto;
-        background-image: url(./../public/background.jpg);
     }
     .containerCut {
         height: 50vw;

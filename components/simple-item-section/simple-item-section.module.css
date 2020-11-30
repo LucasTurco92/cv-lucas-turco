@@ -23,20 +23,28 @@
 }
 
 .description {
-    padding-left: 10px;
+    padding-left: 40px;
+    font-size: .9em;
+}
+
+.headerDescription {
     font-size: .9em;
 }
 
 .date {
-    font-size: .9em;
+    display: block;
+    padding: 1px;
+    color: var(--grey);
 }
 
 @media (min-width: 720px) {
     .description {
-        padding-left: 40px;
         font-size: 1em;
     }
     .date {
-        font-size: 1em;
+        font-size: .9em;
+    }
+    .itemsSection {
+        margin-top: 15px;
     }
 }
