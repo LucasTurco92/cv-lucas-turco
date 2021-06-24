@@ -16,12 +16,12 @@ a {
 }
 
 :root {
-    --blue: #00afef;
-    --white: #ffffff;
-    --lightGrey: #fafafa;
-    --dark: #272833;
-    --lightBlue: #7dd5f5;
-    --solidBlack: #000;
-    --gold: #ffcc85;
-    --grey: #808080;
+    --mainYellow: #ffe600;
+    --black: #333;
+    --darkGrey: #666;
+    --grey: #999;
+    --lightGrey: #eee;
+    --blue: #3483fa;
+    --darkBlue: #272833;
+    --lightBlue: #75aadb;
 }

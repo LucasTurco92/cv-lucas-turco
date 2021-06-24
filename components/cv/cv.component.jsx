@@ -9,9 +9,14 @@ import SkillsInfo from "../skills-info/skills-info.component";
 import Styles from "./cv.module.css";
 import MobileSection from "../mobile-section/mobile-section.component";
 import MobileDarkSection from "../mobile-dark-section/mobile-dark-section.component";
-import AnimatedBackground from "../animated-background/animated-background.component";
 
 const itemsList = [
+  {
+    institution: "Udemy.com",
+    title: "React.js",
+    date: "2020",
+    description: "Duration: 40 hours.",
+  },
   {
     institution: "Udemy.com",
     title: "Node.js's & Express course",
@@ -23,7 +28,7 @@ const itemsList = [
     title: "Technical degree, System Analyst",
     date: "2016",
     description:
-      'Developer at the 2nd stage of the proyect "Academy polls" in ASP.NET MVC 5. September 2016 - December 2016.',
+      'Developer at the 2nd stage of  "Academy polls" in ASP.NET MVC as final proyect.',
   }
 ];
 const education = [{ itemslist: itemsList }];
@@ -32,29 +37,29 @@ const jobList = [
   {
     institution: "Fullstack Ssr.",
     title: "Principal e-commerce",
-    date: "14/07/2020 - PRESENT",
-    description: "Zero to Expert - 20 hours.",
+    date: "Jun. 2020 - PRESENT",
+    description: "In charge of Maintenance of existing code, develope new features, create units tests, resolve bugs, fix styles issues, application of SOLID, DDD architecture and anothers clean code rules, refactoring components.",
   },
   {
     institution: "Back-ender Ssr.",
     title: "Flights Department",
-    date: "01/04/2019 - 01/05/2020",
+    date: "Apr. 2019 - May.2020",
     description:
-      "In charge of Maintenance of existing code, develope new features, create units tests, resolve bugs fixs, integrate Sabre's webs servicies, application of SOLID, DDD architecture and anothers clean code rules, migration of the flight's search .Net Classic into .Net Core APIRest, create a mock of sabre's service in Node.js.",
+      "In charge of Maintenance of existing code, develope new features, create units tests, resolve bugs, integrate Sabre's webs servicies, application of SOLID, DDD architecture and anothers clean code rules, migration of .Net Classic into .Net Core APIRest, create a mock of sabre's service in Node.js.",
   },
   {
     institution: "Back-ender Jr.",
     title: "Flights Department",
-    date: "14/07/2017 - 01/04/2019",
+    date: "Jul. 2017 - Apr. 04/2019",
     description:
-      "In charge of Maintenance of existing code, develope new features, create units tests, resolve bugs fixs, integrate Sabre's webs servicies.",
+      "In charge of Maintenance of existing code, develope new features, create units tests, resolve bugs, integrate Sabre's webs servicies.",
   },
 ];
 const nation = [
   {
     institution: "Tech support",
     title: "PNSA",
-    date: "16/06/2013 - 29/10/2016",
+    date: "Jun. 2013 - Oct. 2016",
     description: "Help desk, networks and computer repair.",
   },
 ];
@@ -72,7 +77,7 @@ const Cv = () => {
   return (
     <div className={Styles.cv}>
       <ImgProfile />
-      <MobileSection title="profesional statement">
+      <MobileSection title="Profesional statement">
         <p className={Styles.smallText}>
         My name is Lucas and I develop to create solutions, focus on quality and added value, implementing good practices and working in team
         </p>

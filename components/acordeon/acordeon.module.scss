@@ -1,5 +1,5 @@
 .buttonTitle {
-    color: var(--blue);
+    color: var(--darkGrey);
     transition-property: color;
     transition-delay: 0.2s;
     transition-timing-function: ease-in-out;
@@ -8,7 +8,6 @@
 
 .buttonTitleSelected {
     @extend .buttonTitle;
-    color: var(--lightBlue);
 }
 
 .icon {

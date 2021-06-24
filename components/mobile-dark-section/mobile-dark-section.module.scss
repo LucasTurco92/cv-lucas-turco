@@ -1,7 +1,7 @@
 .container {
     width: 100%;
-    background: var(--dark);
-    color: var(--dark);
+    background: var(--darkBlue);
+    color: var(--darkGrey);
     padding: 0 20px 0 20px;
 }
 
@@ -67,13 +67,13 @@
 
 .barr {
     display: none;
-    border: 1px solid var(--dark);
+    border: 1px solid var(--darkGrey);
 }
 
 @media (min-width: 720px) {
     .container {
         width: 300px;
-        color: var(--white);
+        color: var(--darkGrey);
     }
     .statement {
         font-size: smaller;

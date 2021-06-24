@@ -1,6 +1,6 @@
     .container {
-        color: var(--dark);
-        background: var(--lightGrey);
+        color: var(--darkGrey);
+        background: var(--darkBlue);
         flex: 2 0px;
         animation: Open reverse 1s;
         padding: 0 20px 0 20px;
@@ -11,7 +11,7 @@
     }
     
     .barr {
-        border: 1px solid var(--dark);
+        border: 1px solid var(--darkGrey);
         display: none;
     }
     

@@ -15,7 +15,6 @@ const SkillsInfo = () => {
     { item: <Skill title="JavaScript" count={3} /> },
     { item: <Skill title="React.js" count={3} /> },
     { item: <Skill title="Node.js" count={3} /> },
-    { item: <Skill title="Express.js" count={4} /> },
     { item: <Skill title="CSS-3" count={3} /> },
     { item: <Skill title="HTML-5" count={4} /> },
     { item: <Skill title="SQL" count={4} /> },
@@ -28,7 +27,7 @@ const SkillsInfo = () => {
   const languagesList = [
     { item: <Skill title={<SpainFlag/>}  count={5} /> },
     { item: <Skill title= {<UkFlag/>} count={4} /> },
-    { item: <Skill title={<ItalyFlag  position='Left' key='3'/>} count={2} /> },
+    { item: <Skill title={<ItalyFlag  position='Left' key='3'/>} count={3} /> },
     { item: <Skill title={<JapanFlag/>} count={1} /> },
   ];
 

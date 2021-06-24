@@ -1,6 +1,5 @@
 .container {
-    color: #272833;
-    background: #fafafa;
+    background: var(--darkBlue);
     flex: 2 0px;
 }
 

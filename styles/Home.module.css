@@ -1,8 +1,5 @@
 .containerCut {
     width: 100%;
-    background: rgb(0, 57, 166);
-    background: linear-gradient(135deg, rgba(0, 57, 166, .9) 0%, rgba(0, 175, 239, .9) 30%);
-    clip-path: polygon(0 0, 100% 0, 100% 20%, 0 50%);
     position: absolute;
     top: 0vh;
     height: 100%;
@@ -26,6 +23,6 @@
         background-size: auto;
     }
     .containerCut {
-        height: 50vw;
+        height: 40vw;
     }
 }

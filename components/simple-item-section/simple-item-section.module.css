@@ -15,7 +15,7 @@
 
 .dot {
     background: rgb(0, 175, 239);
-    background: radial-gradient(circle, rgba(0, 175, 239, 1) 10%, rgba(250, 250, 250, 1) 30%);
+    background: radial-gradient(circle, rgba(0, 175, 239, 1) 10%, rgb(39, 40, 51) 30%);
     height: 10px;
     width: 30px;
     margin-right: 10px;
